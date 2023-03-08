@@ -7,18 +7,12 @@
   padding: 0.1rem 1rem;
 }
 
-#nav a {
-  color: #fafafa;
-  text-decoration: none;
-}
-
 #search-form {
   position: relative;
   width: 30%;
 }
 
 #search-form svg {
-  color: black;
   position: absolute;
   top: 50%;
   left: 5px;
@@ -26,11 +20,11 @@
 }
 
 #search-form input {
-  padding: 0.3rem 1.8rem;
+  padding: 0.7rem 1.8rem;
   border: none;
   border-radius: 5px;
   width: 80%;
-  outline: none;
+  margin: 0;
 }
 
 .nav-links {
@@ -38,15 +32,12 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  letter-spacing: 0.07rem;
+  font-weight: bold;
 }
 
 .nav-links svg {
   font-size: 1.5rem;
-  color: #fafafa;
-}
-
-.nav-links li {
-  list-style: none;
 }
 
 .nav-links li a {
