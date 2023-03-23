@@ -33,7 +33,10 @@
   gap: 15px;
   align-items: center;
   letter-spacing: 0.07rem;
-  font-weight: bold;
+}
+
+.nav-links span {
+  cursor: pointer;
 }
 
 .nav-links svg {
@@ -65,10 +68,15 @@
 
 .nav-links li .active {
   pointer-events: none;
-  opacity: 0.4;
-  transform: scale(0.9);
+  border-bottom: 2px solid #fafafa;
+  font-weight: bold;
 }
 
 .nav-links li a:not(.active) {
   transition: 0.35s;
+  opacity: 0.8;
+}
+
+.nav-links li a:hover {
+  opacity: 1;
 }
