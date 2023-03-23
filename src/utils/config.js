@@ -1,5 +1,5 @@
 export const api = "http://localhost:3333/api";
-export const upload = "http://localhost:3333/uploads";
+export const uploads = "http://localhost:3333/uploads";
 
 export const requestConfig = (method, data, token = null, image = null) => {
   let config;
