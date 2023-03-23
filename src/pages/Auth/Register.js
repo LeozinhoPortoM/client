@@ -44,24 +44,28 @@ export const Register = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
+          autoComplete="off"
           placeholder="Nome"
           onChange={(e) => setName(e.target.value)}
           value={name || ""}
         />
         <input
           type="email"
+          autoComplete="off"
           placeholder="E-mail"
           onChange={(e) => setEmail(e.target.value)}
           value={email || ""}
         />
         <input
           type="password"
+          autoComplete="off"
           placeholder="Senha"
           onChange={(e) => setPassword(e.target.value)}
           value={password || ""}
         />
         <input
           type="password"
+          autoComplete="off"
           placeholder="Confirme a senha"
           onChange={(e) => setConfirmPassword(e.target.value)}
           value={confirmPassword || ""}
