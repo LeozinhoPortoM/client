@@ -83,3 +83,30 @@ input[type="submit"]:hover {
 .hide {
   display: none;
 }
+
+
+/* Loader Animation */
+
+.container-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(5);
+}
+
+.loader {
+  margin-top: 20px;
+  animation: is-rotating 1s infinite;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  border-top-color: #51d4db;
+  display: block;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
